@@ -2,7 +2,7 @@ version: '2.0'
 services: 
     web:
         image: supakorn19934/nginx-sticky
-        container_name: myhr-nginx
+        container_name: mod-nginx
         restart: always
         ports: 
             - "80:80"
